@@ -1,0 +1,6 @@
+unsigned char pos, i;
+unsigned char i = 0x00;
+	for (i = 0x00; i != 0xFF; i++) {
+		lcd_data(i);
+		lcd_command(0x00);
+	}
